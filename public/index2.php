@@ -11,5 +11,5 @@ $logger->pushHandler(new StreamHandler(__DIR__.'/log/my_app.log', Logger::DEBUG)
 $logger->pushHandler(new FirePHPHandler());
 
 var_dump(__DIR__);
-
+echo "vasa";
 $logger->addInfo('My Logger is now ready!');
