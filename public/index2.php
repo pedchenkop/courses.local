@@ -12,4 +12,5 @@ $logger->pushHandler(new FirePHPHandler());
 
 var_dump(__DIR__);
 echo "vasa";
+$a = 12;
 $logger->addInfo('My Logger is now ready!');
